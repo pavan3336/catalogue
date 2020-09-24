@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-1-825cd": {
+      "hosting": {
+        "catalogue": [
+          "angular-1-825cd"
+        ]
+      }
+    }
+  }
+}

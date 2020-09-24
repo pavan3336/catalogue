@@ -1,0 +1,44 @@
+<nav class="navbar navbar-dark">
+    Developer
+</nav>
+
+<div class="container">
+    <div class="row">
+        <h1>Front End Developer</h1>
+    </div>
+    <div class="from-group">
+        <input type="text" class="from-control" [(ngModel)]="FrontEndLanguage" placeholder="Enter Front end Language">
+
+
+        <div class="form-group">
+            <button class="btn btn-primary " (click)="frontEndRecord()" [disabled]="!FrontEndLanguage">submit</button>
+        </div>
+    </div>
+</div>
+
+<div class="container ">
+    <div class="row ">
+        <h1>Database</h1>
+    </div>
+    <div class="from-group">
+        <input type="text " class="from-control " [(ngModel)]="DatabaseLanguage" placeholder="Enter Data base Language ">
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary " (click)="databaseRecord()" [disabled]="!DatabaseLanguage">submit</button>
+    </div>
+</div>
+
+<div class="container ">
+    <div class="row ">
+        <h1>Back End Developer</h1>
+    </div>
+    <div class="from-group">
+        <input type="text " class="from-control " [(ngModel)]="BackEndLanguage" placeholder="Enter Back end Language ">
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary " (click)="backEndRecord()" [disabled]="!BackEndLanguage">submit</button>
+    </div>
+    <div class="from single">
+        <h3><b>{{message}}</b></h3>
+    </div>
+</div>
