@@ -4,3 +4,9 @@ nav.navbar.navbar-dark {
     font-size: 25px;
     font-style: italic;
 }
+.card {
+    margin-top: 10px;
+}
+p:hover {
+    color: #2b85e7;
+}
