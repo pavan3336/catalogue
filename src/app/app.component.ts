@@ -8,7 +8,7 @@ import { FireService } from './fire.service'
 })
 export class AppComponent {
 	title = 'catalogue';
-
+	public searchText = "";
 	public courses = {
 		"FrontEnd" : {
 			technologies : ["Html","Css","Bootstrap","Javascript","Jquery","Angular","Raect Js", "Vue Js"]

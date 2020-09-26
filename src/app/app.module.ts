@@ -9,6 +9,7 @@ import {AngularFireDatabaseModule} from '@angular/fire/database';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
 import {FormsModule, ReactiveFormsModule}from '@angular/forms';
 import { FireService } from './fire.service';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FireService } from './fire.service';
     ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    Ng2SearchPipeModule
   ],
   providers: [FireService],
   bootstrap: [AppComponent]

@@ -10,3 +10,6 @@ nav.navbar.navbar-dark {
 p:hover {
     color: #2b85e7;
 }
+.row {
+    margin: 0 !important;
+}
