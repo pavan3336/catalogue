@@ -58,7 +58,7 @@
     </div>
 
     <div class="row">
-        <ng-container *ngFor="let item of courses | filter:searchText | keyvalue ">
+        <ng-container *ngFor="let item of courses  | keyvalue | filter:searchText">
             <div class="col-4">
                 <div class="card">
                     <div class="card-header">
